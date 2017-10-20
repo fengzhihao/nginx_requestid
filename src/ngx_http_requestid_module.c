@@ -12,7 +12,7 @@ typedef struct {
 } ngx_http_requestid_conf_t;
 
 
-static ngx_str_t ngx_http_requestid = ngx_string("req_id");
+static ngx_str_t ngx_http_requestid = ngx_string("request_id");
 static const u_char hex[] = "0123456789abcdef";
 
 static ngx_int_t ngx_http_requestid_add_variables(ngx_conf_t *cf);
